@@ -1,0 +1,60 @@
+// Create a component called App.
+function App() {
+
+  // Start the JSX that will appear on the screen.
+  return (
+
+    // Create a container.
+    <div>
+
+      {/* Display a heading. */}
+      <h1>Hello React!</h1>
+
+      {/* Display a paragraph. */}
+      <p>This is my first React application.</p>
+
+    </div>
+
+  ); // End of return.
+
+} // End of App component.
+
+// Make App available to other files.
+export default App;
+
+
+
+/*
+
+==EXPLANATIION==
+
+function App()
+      ↓
+We are creating a component called App.
+
+
+return
+      ↓
+What should React display?
+
+
+<div>
+      ↓
+A normal HTML-like container.
+
+
+<h1>
+      ↓
+A heading.
+
+
+export default App
+      ↓
+Allow another file to use App.
+
+
+
+
+
+
+*/

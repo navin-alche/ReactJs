@@ -1,0 +1,64 @@
+// Create our App component.
+function App() {
+
+  // Create a JavaScript variable containing a name.
+  const name = "Alice";
+
+  // Create a JavaScript variable containing an age.
+  const age = 20;
+
+  // Create a JavaScript variable containing a course.
+  const course = "Software Engineering";
+
+  // Return what we want to display.
+  return (
+
+    // Main container.
+    <div>
+
+      {/* Display the page title. */}
+      <h1>Student Profile</h1>
+
+      {/* Display the value stored inside name. */}
+      <p>Name: {name}</p>
+
+      {/* Display the value stored inside age. */}
+      <p>Age: {age}</p>
+
+      {/* Display the value stored inside course. */}
+      <p>Course: {course}</p>
+
+    </div>
+
+  ); // End of return.
+
+} // End of App component.
+
+// Export App so React can use it.
+export default App;
+
+
+/*
+
+==EXPLANATION==
+
+{name}
+
+means:
+
+"React, use JavaScript here."
+
+
+e.g:
+
+// Create a variable.
+const name = "Alice";
+
+// Display the variable.
+<h1>{name}</h1>
+
+//// JavaScript can also perform calculations.
+<p>{5 + 5}</p>
+
+
+*/

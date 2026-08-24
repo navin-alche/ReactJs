@@ -1,0 +1,35 @@
+
+
+# Create a new React project using Vite.
+npm create vite@latest AppName
+
+# Move inside the project folder.
+cd AppName
+
+# Install the packages needed by the project.
+npm install
+
+# Start the React development server.
+npm run dev
+
+
+choose:
+Framework: React
+
+Variant: JavaScript
+
+EsLint
+
+
+
+
+
+
+1. What is React?
+2. What is App.jsx?
+3. What is a component?
+4. What is JSX?
+5. How do we display JavaScript variables?
+6. How do we create another component?
+7. How do we import/use a component?
+8. What are props?

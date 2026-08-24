@@ -1,0 +1,247 @@
+/* ==========================================================
+   src/index.css
+   ========================================================== */
+
+
+/* ==========================================================
+   WHOLE PAGE
+   ========================================================== */
+
+body {
+
+  /* Remove browser's
+     default margin. */
+  margin: 0;
+
+
+  /* Font used
+     across the application. */
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+
+  /* Light background. */
+  background-color: #f4f5f7;
+
+}
+
+
+/* ==========================================================
+   MAIN CONTAINER
+   ========================================================== */
+
+.container {
+
+  /* Maximum width. */
+  max-width: 800px;
+
+
+  /* Center container. */
+  margin: 50px auto;
+
+
+  /* Space inside container. */
+  padding: 30px;
+
+
+  /* White background. */
+  background-color: white;
+
+
+  /* Rounded corners. */
+  border-radius: 12px;
+
+
+  /* Shadow. */
+  box-shadow:
+    0 4px 15px
+    rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+header {
+
+  margin-bottom: 25px;
+
+}
+
+
+header h1 {
+
+  margin-bottom: 5px;
+
+}
+
+
+header p {
+
+  color: #666666;
+
+}
+
+
+/* ==========================================================
+   FORM
+   ========================================================== */
+
+form {
+
+  /* Place input and button
+     on one line. */
+  display: flex;
+
+
+  margin-bottom: 20px;
+
+}
+
+
+/* ==========================================================
+   INPUT
+   ========================================================== */
+
+input {
+
+  /* Take remaining width. */
+  flex: 1;
+
+
+  /* Space inside textbox. */
+  padding: 12px;
+
+
+  /* Text size. */
+  font-size: 16px;
+
+
+  /* Border. */
+  border:
+    1px solid #cccccc;
+
+
+  /* Rounded corners. */
+  border-radius: 5px;
+
+}
+
+
+/* ==========================================================
+   BUTTON
+   ========================================================== */
+
+button {
+
+  /* Internal spacing. */
+  padding:
+    10px
+    15px;
+
+
+  /* Space between buttons. */
+  margin-left: 10px;
+
+
+  /* Remove default border. */
+  border: none;
+
+
+  /* Rounded corners. */
+  border-radius: 5px;
+
+
+  /* Change mouse cursor. */
+  cursor: pointer;
+
+}
+
+
+/* ==========================================================
+   STATS
+   ========================================================== */
+
+.stats {
+
+  /* Place statistics
+     on one line. */
+  display: flex;
+
+
+  /* Space between items. */
+  gap: 20px;
+
+
+  /* Space around section. */
+  margin-bottom: 20px;
+
+
+  /* Slight background. */
+  background-color: #eeeeee;
+
+
+  /* Internal spacing. */
+  padding: 10px;
+
+
+  /* Rounded corners. */
+  border-radius: 5px;
+
+}
+
+
+/* ==========================================================
+   TASK
+   ========================================================== */
+
+.task {
+
+  /* Use Flexbox. */
+  display: flex;
+
+
+  /* Vertically center elements. */
+  align-items: center;
+
+
+  /* Internal spacing. */
+  padding: 15px;
+
+
+  /* Space between tasks. */
+  margin-top: 10px;
+
+
+  /* Task background. */
+  background-color: #eeeeee;
+
+
+  /* Rounded corners. */
+  border-radius: 6px;
+
+}
+
+
+/* ==========================================================
+   TASK NAME
+   ========================================================== */
+
+.task span {
+
+  /* Take all remaining space.
+
+     This pushes the buttons
+     towards the right.
+  */
+  flex: 1;
+
+
+  /* Text size. */
+  font-size: 17px;
+
+}

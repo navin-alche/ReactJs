@@ -1,0 +1,60 @@
+// Import our Student component.
+import Student from "./components/student.jsx";
+
+// Create the App component.
+function App() {
+
+  // Return what should appear on the screen.
+  return (
+
+    // Main container.
+    <div>
+
+      {/* Display the heading. */}
+      <h1>My Students</h1>
+
+      {/* Use Student and send the name Alice. */}
+      <Student name="Alice" />
+
+      {/* Use Student and send the name John. */}
+      <Student name="John" />
+
+      {/* Use Student and send the name Sarah. */}
+      <Student name="Sarah" />
+
+    </div>
+
+  ); // End of return.
+
+} // End of App component.
+
+// Export App.
+export default App;
+
+
+
+/*
+
+App.jsx
+
+<Student name="Alice" />
+
+          |
+          | sends
+          ↓
+
+        props
+
+          |
+          ↓
+
+Student.jsx
+
+props.name
+
+          |
+          ↓
+
+        Alice
+
+*/
