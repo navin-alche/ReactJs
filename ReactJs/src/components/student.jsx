@@ -1,17 +1,18 @@
-// Create a component called Student.
-function Student() {
+// Create the Student component.
 
-  // Return what this component should display.
+// props contains information sent from App.jsx.
+function Student(props) {
+
+  // Return what should appear on the screen.
   return (
 
-    // Create a container for the student.
+    // Create a container.
     <div>
-
-      {/* Display the student's name. */}
-      <h2>Alice</h2>
-
-      {/* Display the student's course. */}
-      <p>Software Engineering</p>
+      <h3>I am from student.jsx</h3>
+      {/* Display the name received from App.jsx. */}
+      <h2>{props.name}</h2> <br/>
+      <h2>{props.gender}</h2> <br/>
+      <h2>{props.email}</h2> <br/>
 
     </div>
 
@@ -19,26 +20,5 @@ function Student() {
 
 } // End of Student component.
 
-// Export Student so another file can use it.
+// Export the Student component.
 export default Student;
-
-
-/*
-
-A COMPONENT is a reusable part of our webpage.
-
-
-For example:
-
-
-        WEBSITE
-           |
-     --------------
-     |      |     |
-   Header  Main  Footer
-
-
-Each part can be a component.
-
-
-*/
